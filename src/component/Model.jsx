@@ -1,5 +1,5 @@
 import { useGLTF } from "@react-three/drei";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 function Model({ color, selectedPart, showSpoiler, ...props }) {
   const { nodes, materials } = useGLTF("/bmw.glb");
